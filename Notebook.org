@@ -1,0 +1,10 @@
+#+TITLE: Notebook
+#+DESCRIPTION: notebook pt proiectul etrans
+#+AUTHOR: Dan Pomohaci
+#+EMAIL: dan.pomohaci@gmail.com
+#+STARTUP: overview indent align inlineimages
+#+PROPERTY: header-args  :cache yes :results silent :padline no
+
+* 2022-05-21
+
+- scopul acestui proiect este de a implementa o functie care sa primeasca ca argumente o regiune de text si sa traduca acest text intr-o alta limba inlocuind textul original, by default traducerea ar trebui sa fie din romana in engleza.

@@ -1,0 +1,26 @@
+#+TITLE: README
+#+DESCRIPTION: translate text in emacs  using DeepL
+#+AUTHOR: Dan Pomohaci
+#+EMAIL: dan.pomohaci@gmail.com
+#+STARTUP: overview indent align inlineimages
+
+* Description
+
+The goal of this project is to implement an emacs command that will
+replace the selected text with a translation into another language.
+
+The original text is put in =kill-ring=.
+
+
+* Configuration
+
+To use it correctly you need to customize the variables:
+- etrans-deepl-auth-key (no default value)
+- etrans-source-lang (default "RO")
+- etrans-target-lang (default "EN")
+
+
+* References
+
+1. https://www.deepl.com/docs-api/introduction/
+2. https://gist.github.com/masatoi/ec90d49331e40983427025f8167d01ee
