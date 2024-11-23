@@ -20,7 +20,7 @@
 
 
 
-(task 'sandbox '() "create sandbos" '(lambda (&optional x) (concat make init-opts "-s.sandbox")))
+(task 'sandbox '() "create sandbox" '(lambda (&optional x) (concat make init-opts "-s.sandbox")))
 (task 'lint '() "lint the project" '(lambda (&optional x) (concat make opts "lint")))
 (task 'elsa '() "lint elsa the project" '(lambda (&optional x) (concat make opts "lint-elsa")))
 
