@@ -2,7 +2,7 @@
 
 ;; Author:  Dan Pomohaci
 ;; Version: 0.1
-;; Package-Requires: ((emacs "24.4") (elsa "0.1") (request "0.3.3"))
+;; Package-Requires: ((emacs "24.4") (request "0.3.3"))
 ;; Homepage: https://gitlab.com/dpom/etrans
 ;; Keywords: text,tool
 
